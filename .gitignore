@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Proteus temp/workspace/log files
+*.workspace
+*.log
+*.erc
+*.edf
+
+# optional folders you don't want tracked
+OptionalScripts/

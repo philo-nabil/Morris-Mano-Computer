@@ -1,4 +1,8 @@
-# Proteus simulator files: stop GitHub from detecting the .DO script as Stata
-OptionalScripts/** linguist-detectable=false
-OptionalState/** linguist-detectable=false
-*.pdsprj linguist-detectable=false
+# Proteus simulator files, not source code. Keep them out of GitHub's language stats
+# (the .DO script was being detected as Stata).
+*.DO linguist-vendored
+*.do linguist-vendored
+*.sts linguist-vendored
+*.pdsprj linguist-vendored
+OptionalScripts/** linguist-vendored
+OptionalState/** linguist-vendored

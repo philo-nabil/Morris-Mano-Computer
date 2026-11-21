@@ -1,0 +1,4 @@
+# Proteus simulator files: stop GitHub from detecting the .DO script as Stata
+OptionalScripts/** linguist-detectable=false
+OptionalState/** linguist-detectable=false
+*.pdsprj linguist-detectable=false
